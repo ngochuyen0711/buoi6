@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function in_Xinchao(){
+            console.log("xin chào green academy, trả góp 0%")
+            console.log("giảm giá 10% trong tháng 1")
+        }
+        in_Xinchao()
+        function in_BCC2(){
+            console.log("2*1=2")
+            console.log("2*2=4")
+            console.log("2*3=6")
+            console.log("....")
+            console.log("2*10=20")
+        }
+        in_BCC2()
+        in_Xinchao()
+        function thongTinHinhVuong(canh){
+            console.log("hình vuông có cạnh -" + canh)
+        }
+        thongTinHinhVuong (3)
+        function thongTinHinhChuNhat (dai,rong){
+            console.log("HCN có chiều dài -" + dai, "HCN có chiều rộng -" + rong)
+        }
+        thongTinHinhChuNhat (2,3)
+        thongTinHinhChuNhat (3,4)
+        thongTinHinhChuNhat (4,5)
+
+        function mieuTaMe(hinhAnh, dang){
+            console.log(`tóc mẹ bạc màu ${hinhAnh} bạc kín đôi vai ${dang}`)
+        }
+        mieuTaMe("sương", "còng")
+        mieuTaMe("mây", "gầy")
+
+        function tong(a,b){
+            return a+b
+        }
+        function tich(a,b,c){
+            return a*b*c
+        }
+        console.log(tong(2,3))
+        console.log(tich(2,3,4))
+        console.log(Math.max(1,2,4))
+        console.log(Math.round(4.9))
+        console.log(Math.pow(2,3))
+        //alert (Math.pow(2,3))
+
+
+        //diện tích HCN
+        function dienTichHCN(dai,rong){
+            return dai*rong
+        }
+        console.log(`Chu vi hình chữ nhật là: ${dienTichHCN(2,3)}`)
+
+        //diện tích hình tròn
+        const pi=3.14
+        function dienTichHinhTron(r){
+            return pi*r**2
+        }
+        console.log(dienTichHinhTron(2))
+    </script>
+</body>
+</html>
